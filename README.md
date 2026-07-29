@@ -13,11 +13,12 @@ Landing page dell'apex **[bitsplitters.app](https://bitsplitters.app)** — sito
 L'URL della documentazione è centralizzato in **una sola riga** in fondo a `index.html`:
 
 ```js
-const DOCS_URL = "#";
+const DOCS_URL = "https://tasks.bitsplitters.app";
 ```
 
-Finché vale `"#"`, il pulsante *Documentation* mostra "coming soon" ed è disabilitato.
-Sostituiscilo con l'indirizzo definitivo (es. `"https://docs.bitsplitters.app"`) per attivarlo.
+Punta al sito di documentazione di **Team Tasks Manager** (`tasks.bitsplitters.app`).
+Se lo si riporta a `"#"`, il pulsante *Documentation* torna a mostrare "coming soon"
+ed è disabilitato.
 
 ## Aggiungere un prodotto
 
